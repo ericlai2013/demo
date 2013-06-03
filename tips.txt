@@ -13,4 +13,4 @@ git log				commit history
 
 git diff			view differences
 
-git diff --cached		differences in staging
+git diff --cached		differences in stage

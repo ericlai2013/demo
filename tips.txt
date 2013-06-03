@@ -1,0 +1,16 @@
+git log --oneline
+
+git init<project>		project now repository
+
+git add .			add all files to staging
+
+git commit -m "message"		snapshot
+
+
+git status			status of files
+
+git log				commit history
+
+git diff			view differences
+
+git diff --cached		differences in staging

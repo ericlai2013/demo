@@ -3,7 +3,7 @@ $git config --global user.email "laisiutak@gmail.com"
 
 git log --oneline
 
-git init<project>		project now repository
+git init<project>		make a project new repository
 
 git add .			add all files to staging
 

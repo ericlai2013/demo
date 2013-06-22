@@ -1,3 +1,6 @@
+$git config --global user.email "laisiutak@gmail.com"
+		(master) is the default branch
+
 git log --oneline
 
 git init<project>		project now repository
@@ -7,7 +10,11 @@ git add .			add all files to staging
 git commit -m "message"		snapshot
 
 
-git status			status of files
+$git status   (git status will tell you: 
+               - what branch you are on
+               - what files have changed
+               - what files are not tracked
+               - hints on what to do next
 
 git log				commit history
 

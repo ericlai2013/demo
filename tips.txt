@@ -14,3 +14,34 @@ git log				commit history
 git diff			view differences
 
 git diff --cached		differences in stage
+
+
+
+
+Sqlite3
+tutorial videos
+http://www.youtube.com/results?search_query=sqlite
+
+tutorial
+1)
+
+sqlite>sqlite3 test.db
+sqlite>create table first (a int, b string);
+sqlite>.schema
+create table first (a int, b string);
+
+sqlite>insert into first (a, b) values (1, "hello");
+sqlite>select * from first;
+1|hello
+sqlite>.quit
+
+
+check sql
+sqlite>sqlite3 test.db
+sqlite>.schema
+sqlite>select * from first;
+
+
+SQLite JOIN tables
+
+

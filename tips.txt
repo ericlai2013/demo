@@ -9,6 +9,10 @@ git add .			add all files to staging
 
 git commit -m "message"		snapshot
 
+git commit -a -m "message"      short cut to add everything in this 
+                                directory to the stage area and then
+                                read your message
+
 
 $git status   (git status will tell you: 
                - what branch you are on
